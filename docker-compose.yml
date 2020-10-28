@@ -1,0 +1,9 @@
+version: '3.8'
+
+services: 
+    myapache:
+        image: httpd:latest
+        ports:
+            - 80:80
+        volumes: 
+            - ./project:/usr/local/apache2/htdocs/project
