@@ -9,6 +9,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jquery": "^3.5.1",
     "vue": "^2.6.12"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-vue": "^7.1.0"
   }
 }
